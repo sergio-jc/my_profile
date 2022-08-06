@@ -1,11 +1,11 @@
 import menu from "../../images/logos/menu.svg";
-import x from "../../images/logos/x.svg";
+import error from "../../images/logos/error.svg";
 
 import "../../css/Nav.css";
 import { useState } from "react";
 const Nav = () => {
   const [toggle, setToggle] = useState(false);
-  let menuIcon = toggle ? x : menu;
+  let menuIcon = toggle ? error : menu;
   return (
     <div className="menu_icon">
       <nav className="nav">
