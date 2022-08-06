@@ -19,3 +19,32 @@
 .menu_icon  img:hover {
     background-color: var(--main-blue-link);
 }
+
+.nav__links {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 80px;
+    right: 0;
+    background-color: var(--main-back-ground);
+    display: grid;
+    place-items: center;
+    clip-path: circle(0% at top right);
+    transition: clip-path .4s;
+    
+}
+
+.nav__link {
+    text-decoration: none;
+    color: var(--main-back-ground-second);
+    font-size: large;
+    transition: all 400ms ease;
+}
+.nav__link:hover {
+    font-size: xx-large;
+    color: var(--main-blue-link);
+}
+
+.nav__links:target {
+    clip-path: circle(150% at top right);
+}
