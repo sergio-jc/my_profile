@@ -1,0 +1,12 @@
+.App-header {
+    background-color: var(--main-back-ground-second);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(20px + 2vmin);
+    color: var(--main-back-ground);
+    margin: 0vh 0vh 20vh 0vh ;
+    padding: 20vh 0vh 20vh 0vh ;
+  }
+
