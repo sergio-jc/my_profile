@@ -10,3 +10,10 @@
     padding: 20vh 0vh 20vh 0vh ;
   }
 
+
+  @media (max-width: 600px) {
+    .App-header {
+      width: 110vh;
+    }
+  }
+  
