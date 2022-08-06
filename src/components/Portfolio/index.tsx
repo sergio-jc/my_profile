@@ -6,7 +6,7 @@ import deploy from "../../images/logos/deploy_icon_3.svg";
 import "../../css/Portfolio.css";
 const Portfolio = () => {
   return (
-    <div>
+    <div className="contain_protfile">
       <div className="portfolio_contain">
         <h2 className="portfolio_contain">PORTFOLIO</h2>
       </div>

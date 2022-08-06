@@ -1,6 +1,11 @@
+.contain_protfile {
+margin-bottom: 130px;
+}
+
 .img_portfolio{
     width: 90vh;
     padding: 10vh;
+   
 }
 
 .portfolio_contain {

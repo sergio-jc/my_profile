@@ -3,7 +3,7 @@ import "../../css/AboutMe.css";
 const AboutMe = () => {
   return (
     <div className="about_me">
-      <img src={programming} className="about_me_img" alt="programming_time"/>
+      <img src={programming} className="about_me_img" alt="programming_time" />
       <article className="about_me_msg">
         <h2>Hi,</h2>
         <h2>
@@ -15,8 +15,12 @@ const AboutMe = () => {
           the IT world, I have met and collaborated with so many talented people
           to create high quality digital products. I am a quiet person, curious
           by nature, and I am always working to improve my skills, my philosophy
-          : <span className="about_me_philosophy">"one problem at a time"</span>.
+          : <span className="about_me_philosophy">"one problem at a time"</span>
+          .
         </p>
+        <div className="container_btn_aboutme">
+          <button>Download CV</button>
+        </div>
       </article>
     </div>
   );
