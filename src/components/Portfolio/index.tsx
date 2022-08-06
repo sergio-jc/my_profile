@@ -6,77 +6,80 @@ import deploy from "../../images/logos/deploy_icon_3.svg";
 import "../../css/Portfolio.css";
 const Portfolio = () => {
   return (
-    <div className="contain_protfile">
-      <div className="portfolio_contain">
-        <h2 className="portfolio_contain">PORTFOLIO</h2>
-      </div>
-      <div className="portfolio_proyects_contain">
-        <div className="portfolio_proyect">
+    <section id="sec4">
+      <div className="contain_protfile">
+        <div className="portfolio_contain">
+          <h2 className="portfolio_contain">PORTFOLIO</h2>
+        </div>
+        <div className="portfolio_proyects_contain">
+          <div className="portfolio_proyect">
+            <div>
+              <img src={manga} alt="manga-coffee" className="img_portfolio" />
+            </div>
+            <div className="portfolio_proyect_description">
+              <h2>Manga Coffee</h2>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo
+                cum ipsa atque necessitatibus error eaque dignissimos modi
+                natus, pariatur numquam molestiae ducimus quia voluptate
+                voluptatibus magni dolorum? Reprehenderit, sed illum!
+              </p>
+              <img
+                src={github}
+                alt="github_icon"
+                className="github_icon_detail"
+              />
+              <img
+                src={youtube}
+                alt="github_youtube"
+                className="github_icon_detail"
+              />
+              <img
+                src={deploy}
+                alt="github_youtube"
+                className="github_icon_detail"
+              />
+            </div>
+          </div>
+          <div className="portfolio_proyect">
+            <div>
+              <img src={food} alt="healthy_food" className="img_portfolio" />
+            </div>
+            <div className="portfolio_proyect_description">
+              <h2>Healthy Eating</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis
+                architecto ratione similique? Quisquam maxime voluptatibus porro
+                doloremque exercitationem, quia fugiat ipsum, repellat
+                consequuntur, labore aperiam. Nam aperiam dolorem temporibus
+                qui!
+              </p>
+              <img
+                src={github}
+                alt="github_icon"
+                className="github_icon_detail"
+              />
+              <img
+                src={youtube}
+                alt="github_youtube"
+                className="github_icon_detail"
+              />
+            </div>
+          </div>
+        </div>
+        <div className="portfolio_proyect_question">
           <div>
-            <img src={manga} alt="manga-coffee" className="img_portfolio" />
-          </div>
-          <div className="portfolio_proyect_description">
-            <h2>Manga Coffee</h2>
+            <div className="portfolio_proyect_question">
+              <h2>Interested in collaborating with me?</h2>
+            </div>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo cum
-              ipsa atque necessitatibus error eaque dignissimos modi natus,
-              pariatur numquam molestiae ducimus quia voluptate voluptatibus
-              magni dolorum? Reprehenderit, sed illum!
+              I’m always open to discussing product design work or partnership
+              opportunities.
             </p>
-            <img
-              src={github}
-              alt="github_icon"
-              className="github_icon_detail"
-            />
-            <img
-              src={youtube}
-              alt="github_youtube"
-              className="github_icon_detail"
-            />
-            <img
-              src={deploy}
-              alt="github_youtube"
-              className="github_icon_detail"
-            />
-          </div>
-        </div>
-        <div className="portfolio_proyect">
-          <div>
-            <img src={food} alt="healthy_food" className="img_portfolio" />
-          </div>
-          <div className="portfolio_proyect_description">
-            <h2>Healthy Eating</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis
-              architecto ratione similique? Quisquam maxime voluptatibus porro
-              doloremque exercitationem, quia fugiat ipsum, repellat
-              consequuntur, labore aperiam. Nam aperiam dolorem temporibus qui!
-            </p>
-            <img
-              src={github}
-              alt="github_icon"
-              className="github_icon_detail"
-            />
-            <img
-              src={youtube}
-              alt="github_youtube"
-              className="github_icon_detail"
-            />
           </div>
         </div>
       </div>
-      <div className="portfolio_proyect_question">
-        <div>
-          <div className="portfolio_proyect_question">
-            <h2>Interested in collaborating with me?</h2>
-          </div>
-          <p>
-            I’m always open to discussing product design work or partnership
-            opportunities.
-          </p>
-        </div>
-      </div>
-    </div>
+    </section>
   );
 };
 
