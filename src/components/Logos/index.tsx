@@ -8,6 +8,7 @@ import redux from "../../images/logos/redux.svg";
 import tailwindcss from "../../images/logos/tailwindcss.svg";
 import nodejsicon from "../../images/logos/nodejs-icon.svg";
 import sass from "../../images/logos/sass.svg";
+import Smooth from "../Smooth";
 
 const Logos = () => {
   return (
@@ -25,6 +26,7 @@ const Logos = () => {
           <img src={sass} className="icon" alt="sass_logo" />
           <img src={nodejsicon} className="icon" alt="nodejs_logo" />
         </div>
+        <Smooth id={4}/>
       </div>
     </section>
   );

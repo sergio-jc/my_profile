@@ -46,6 +46,7 @@ button {
 button:hover {
   background-color: #e6e6e6;
   color: var(--main-back-ground);
+  padding: 12px;
 }
 
 button:active {

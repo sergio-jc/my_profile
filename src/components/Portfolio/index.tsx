@@ -4,6 +4,7 @@ import github from "../../images/logos/github-icon-1.svg";
 import youtube from "../../images/logos/youtube_black_logo.svg";
 import deploy from "../../images/logos/deploy_icon_3.svg";
 import "../../css/Portfolio.css";
+import Smooth from "../Smooth";
 const Portfolio = () => {
   return (
     <section id="sec4">
@@ -77,6 +78,9 @@ const Portfolio = () => {
               opportunities.
             </p>
           </div>
+        </div>
+        <div className="smooth_sec">
+          <Smooth id={5} />
         </div>
       </div>
     </section>

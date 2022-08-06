@@ -1,6 +1,7 @@
 import persons, { Persons } from "./info";
 import "../../css/Testimonials.css";
 import Comends from "./Coments";
+import Smooth from "../Smooth";
 
 const Testimonials = () => {
   return (
@@ -14,6 +15,9 @@ const Testimonials = () => {
           })}
         </section>
         <Comends pag={0} />
+        <div className="smooth_sec">
+          <Smooth id={5} />
+        </div>
       </div>
     </section>
   );
