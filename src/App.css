@@ -36,8 +36,8 @@ button {
   border-radius: 8px;
   font-size: calc(10px + 2vmin);
   padding: 10px;
-  background-color: #3f3d56;
-  color: var(--main-blue-link);
+  background-color: var(--main-blue-link) ;
+  color: #3f3d56;
   border: none;
   box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
   transition: all 300ms ease;
@@ -52,4 +52,10 @@ button:active {
   background-color: var(--main-blue-link);
   transform: scale(0.9);
   box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+@media (max-width: 600px) {
+  body{
+    width: 100%;
+  }
 }

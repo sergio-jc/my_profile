@@ -13,7 +13,8 @@
 
   @media (max-width: 600px) {
     .App-header {
-      width: 110vh;
+      width: 65vh;
+      font-size: small;
     }
   }
   
