@@ -3,7 +3,7 @@ import "../../css/AboutMe.css";
 const AboutMe = () => {
   return (
     <div className="about_me">
-      <img src={programming} className="about_me_img" />
+      <img src={programming} className="about_me_img" alt="programming_time"/>
       <article className="about_me_msg">
         <h2>Hi,</h2>
         <h2>

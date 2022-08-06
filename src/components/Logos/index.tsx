@@ -14,15 +14,15 @@ const Logos = () => {
     <div className="App-header">
       <h2>SKILLSET</h2>
       <div>
-        <img src={html} className="icon" />
-        <img src={css} className="icon" />
-        <img src={javascript} className="icon" />
-        <img src={typescript} className="icon" />
-        <img src={react} className="icon" />
-        <img src={redux} className="icon" />
-        <img src={tailwindcss} className="icon" />
-        <img src={sass} className="icon" />
-        <img src={nodejsicon} className="icon" />
+        <img src={html} className="icon" alt="html_logo"/>
+        <img src={css} className="icon" alt="css_log"/>
+        <img src={javascript} className="icon" alt="js_logo"/>
+        <img src={typescript} className="icon" alt="ts_logo"/>
+        <img src={react} className="icon" alt="react_logo"/>
+        <img src={redux} className="icon" alt="redux_logo"/>
+        <img src={tailwindcss} className="icon" alt="tailwind_logo"/>
+        <img src={sass} className="icon" alt="sass_logo"/>
+        <img src={nodejsicon} className="icon" alt="nodejs_logo"/>
       </div>
     </div>
   );
