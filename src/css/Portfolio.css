@@ -1,0 +1,32 @@
+.img_portfolio{
+    width: 90vh;
+    padding: 10vh;
+}
+
+.portfolio_contain {
+    display: flex;
+    justify-content: center;
+    font-size: calc(30px + 2vmin);
+    color: var(--main-back-ground-second);
+}
+
+.portfolio_proyects_contain {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolio_proyect {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolio_proyect_description {
+    width: 80vh;
+    margin-left: 12vh;
+    color: var(--main-back-ground-second);
+    margin-top: 10vh;
+}
+
+.portfolio_proyect_description h2 {
+    color: var(--main-blue-link);
+}
