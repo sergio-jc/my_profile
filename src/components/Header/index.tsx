@@ -9,8 +9,7 @@ const Header = () => {
       <header className="App-header">
         <h1>Frontend Developer</h1>
         <p>
-          I development and code beautifully simple things, and I love what I
-          do.
+          I design and code beautifully simple things, and I love what I do.
         </p>
       </header>
     </>

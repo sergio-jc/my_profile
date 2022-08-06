@@ -1,0 +1,30 @@
+.about_me {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+.about_me_img {
+    width: 110vh;
+}
+
+.about_me_msg {
+    color: var(--main-back-ground-second);
+    font-size: xx-large ;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.about_me_name {
+    color: var(--main-blue-link);
+    font-size: calc(45px + 2vmin);
+}
+
+.about_me_description {
+    font-size:20px;
+    width: 70vh;
+}
+
+.about_me_philosophy {
+    color: var(--main-blue-link);
+}
