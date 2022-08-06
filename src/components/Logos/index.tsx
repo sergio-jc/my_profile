@@ -11,16 +11,19 @@ import sass from "../../images/logos/sass.svg";
 
 const Logos = () => {
   return (
-    <div>
-      <img src={html} className="icon" />
-      <img src={css} className="icon" />
-      <img src={javascript} className="icon" />
-      <img src={typescript} className="icon" />
-      <img src={react} className="icon" />
-      <img src={redux} className="icon" />
-      <img src={tailwindcss} className="icon" />
-      <img src={sass} className="icon" />
-      <img src={nodejsicon} className="icon" />
+    <div className="App-header">
+      <h2>SKILLSET</h2>
+      <div>
+        <img src={html} className="icon" />
+        <img src={css} className="icon" />
+        <img src={javascript} className="icon" />
+        <img src={typescript} className="icon" />
+        <img src={react} className="icon" />
+        <img src={redux} className="icon" />
+        <img src={tailwindcss} className="icon" />
+        <img src={sass} className="icon" />
+        <img src={nodejsicon} className="icon" />
+      </div>
     </div>
   );
 };
