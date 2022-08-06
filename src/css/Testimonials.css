@@ -1,0 +1,44 @@
+.avatars {
+    display: flex;
+    padding-left: 2rem;
+}
+
+.avatars img {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    border: 4px solid var(--main-back-ground-second);
+    margin: 0 0 0 -1rem;
+    transition: all 400ms ease;
+}
+
+.avatars img:hover {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    border: 4px solid var(--main-back-ground-second);
+    margin: 0 0 0 0.1rem;
+}
+
+.container_comends {
+    display: flex ;
+    flex-wrap: wrap;
+
+}
+.contain_comend{
+margin: 30px;
+margin-top: 80px;
+}
+
+.contain_comend h6 {
+    color: var(--main-blue-link);
+    font-size: medium;
+}
+.contain_comend h4 {
+    font-size: x-large;
+    margin: 0 0 -2rem;
+}
+.contain_comend p {
+    width: 60vh;
+    font-size: medium;
+}
