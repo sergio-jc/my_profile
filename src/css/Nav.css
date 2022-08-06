@@ -1,0 +1,21 @@
+.menu_icon{
+    display: flex;
+    justify-content: flex-end;
+    position: sticky;
+    top: 0;
+    height: 0px;
+}
+.menu_icon  img{
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 100%;
+    background-color: var(--main-back-ground-second);
+    transition: all 400ms ease;
+
+}
+
+.menu_icon  img:hover {
+    background-color: var(--main-blue-link);
+}

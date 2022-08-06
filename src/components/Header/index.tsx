@@ -1,5 +1,4 @@
 import { useState } from "react";
-import logo from "../../images/myImg/myLogo.jpg";
 import "../../css/Header.css";
 import Smooth from "../Smooth";
 
