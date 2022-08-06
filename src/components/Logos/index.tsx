@@ -3,7 +3,7 @@ import html from "../../images/logos/html.svg";
 import css from "../../images/logos/css.svg";
 import javascript from "../../images/logos/javascript.svg";
 import typescript from "../../images/logos/typescript.svg";
-import react from "../../images/logos/react.svg";
+import react from "../../images/logos/react-1.svg";
 import redux from "../../images/logos/redux.svg";
 import tailwindcss from "../../images/logos/tailwindcss.svg";
 import nodejsicon from "../../images/logos/nodejs-icon.svg";

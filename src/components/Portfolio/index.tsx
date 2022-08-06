@@ -1,5 +1,8 @@
 import manga from "../../images/projects/mangaCoffe.png";
 import food from "../../images/projects/healthyFood.png";
+import github from "../../images/logos/github-icon-1.svg";
+import youtube from "../../images/logos/youtube_black_logo.svg";
+import deploy from "../../images/logos/deploy_icon_3.svg";
 import "../../css/Portfolio.css";
 const Portfolio = () => {
   return (
@@ -20,6 +23,21 @@ const Portfolio = () => {
               pariatur numquam molestiae ducimus quia voluptate voluptatibus
               magni dolorum? Reprehenderit, sed illum!
             </p>
+            <img
+              src={github}
+              alt="github_icon"
+              className="github_icon_detail"
+            />
+            <img
+              src={youtube}
+              alt="github_youtube"
+              className="github_icon_detail"
+            />
+            <img
+              src={deploy}
+              alt="github_youtube"
+              className="github_icon_detail"
+            />
           </div>
         </div>
         <div className="portfolio_proyect">
@@ -34,6 +52,16 @@ const Portfolio = () => {
               doloremque exercitationem, quia fugiat ipsum, repellat
               consequuntur, labore aperiam. Nam aperiam dolorem temporibus qui!
             </p>
+            <img
+              src={github}
+              alt="github_icon"
+              className="github_icon_detail"
+            />
+            <img
+              src={youtube}
+              alt="github_youtube"
+              className="github_icon_detail"
+            />
           </div>
         </div>
       </div>
