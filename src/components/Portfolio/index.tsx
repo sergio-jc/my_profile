@@ -65,6 +65,17 @@ const Portfolio = () => {
           </div>
         </div>
       </div>
+      <div className="portfolio_proyect_question">
+        <div>
+          <div className="portfolio_proyect_question">
+            <h2>Interested in collaborating with me?</h2>
+          </div>
+          <p>
+            I’m always open to discussing product design work or partnership
+            opportunities.
+          </p>
+        </div>
+      </div>
     </div>
   );
 };

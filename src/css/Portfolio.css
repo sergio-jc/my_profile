@@ -45,3 +45,15 @@
     background-color: var(--main-blue-link);
     transform: scale(0.90);
 }
+
+.portfolio_proyect_question {
+    display: flex;
+    justify-content: center;
+    color: var(--main-back-ground-second);
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.portfolio_proyect_question h2 {
+    color: var(--main-blue-link);
+}
