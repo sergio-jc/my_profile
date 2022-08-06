@@ -5,7 +5,9 @@
   --main-letter: white;
   --main-blue-link: #61dafb;
 }
-
+html{
+  scroll-behavior: smooth;
+}
 body {
   background-color: var(--main-back-ground);
 }
