@@ -24,27 +24,36 @@ const Contact = () => {
             </p>
           </div>
           <div className="contain_contact_icons">
-            <img
-              src={twitter}
-              alt="twitter_icon"
-              className="github_icon_detail"
-            />
-            <img
-              src={github}
-              alt="github_icon"
-              className="github_icon_detail"
-            />
-            <img
-              src={linkedin}
-              alt="linkedin_icon"
-              className="github_icon_detail"
-            />
+            <a href="https://twitter.com/Secio_jc" target={"_blank"}>
+              <img
+                src={twitter}
+                alt="twitter_icon"
+                className="github_icon_detail"
+              />
+            </a>
+            <a href="https://github.com/sergio-jc" target={"_blank"}>
+              <img
+                src={github}
+                alt="github_icon"
+                className="github_icon_detail"
+              />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/ronaldo-jara/"
+              target={"_blank"}
+            >
+              <img
+                src={linkedin}
+                alt="linkedin_icon"
+                className="github_icon_detail"
+              />
+            </a>
             <img src={gmail} alt="gmail_icon" className="github_icon_detail" />
             <img src={wsp} alt="wsp_icon" className="github_icon_detail" />
           </div>
           <div className="contact_q_msg bluee">
-            <p >Coffee is on me 💙</p>
-            <p >Handmade and lovingly made by me ©️ </p>
+            <p>Coffee is on me 💙</p>
+            <p>Handmade and lovingly made by me ©️ </p>
           </div>
         </div>
       </div>

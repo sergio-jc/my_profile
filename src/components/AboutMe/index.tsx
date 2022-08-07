@@ -29,7 +29,9 @@ const AboutMe = () => {
               .
             </p>
             <div className="container_btn_aboutme">
-              <button>Download CV</button>
+              <a href="https://drive.google.com/uc?export=download&id=1urjOi9wUIL_io61pBNY2Rr5ll_MXTYba">
+                <button>Download CV</button>
+              </a>
             </div>
             <div className="smooth_sec">
               <Smooth id={3} />

@@ -25,21 +25,33 @@ const Portfolio = () => {
                 natus, pariatur numquam molestiae ducimus quia voluptate
                 voluptatibus magni dolorum? Reprehenderit, sed illum!
               </p>
-              <img
-                src={github}
-                alt="github_icon"
-                className="github_icon_detail"
-              />
-              <img
-                src={youtube}
-                alt="github_youtube"
-                className="github_icon_detail"
-              />
-              <img
-                src={deploy}
-                alt="github_youtube"
-                className="github_icon_detail"
-              />
+              <a
+                href="https://github.com/NosliwKuns/MANGA-COFFEE"
+                target={"_blank"}
+              >
+                <img
+                  src={github}
+                  alt="github_icon"
+                  className="github_icon_detail"
+                />
+              </a>
+              <a
+                href="https://www.youtube.com/watch?v=jSyNehYLQp0&t=2s"
+                target={"_blank"}
+              >
+                <img
+                  src={youtube}
+                  alt="github_youtube"
+                  className="github_icon_detail"
+                />
+              </a>
+              <a href="https://manga-coffee.vercel.app/" target="_blank">
+                <img
+                  src={deploy}
+                  alt="github_youtube"
+                  className="github_icon_detail"
+                />
+              </a>
             </div>
           </div>
           <div className="portfolio_proyect">
@@ -55,16 +67,23 @@ const Portfolio = () => {
                 consequuntur, labore aperiam. Nam aperiam dolorem temporibus
                 qui!
               </p>
-              <img
-                src={github}
-                alt="github_icon"
-                className="github_icon_detail"
-              />
-              <img
-                src={youtube}
-                alt="github_youtube"
-                className="github_icon_detail"
-              />
+              <a href="https://github.com/sergio-jc/PI-food" target={"_blank"}>
+                <img
+                  src={github}
+                  alt="github_icon"
+                  className="github_icon_detail"
+                />
+              </a>
+              <a
+                href="https://www.youtube.com/watch?v=ocxIH90O5xA&t=19s"
+                target={"_blank"}
+              >
+                <img
+                  src={youtube}
+                  alt="github_youtube"
+                  className="github_icon_detail"
+                />
+              </a>
             </div>
           </div>
         </div>
