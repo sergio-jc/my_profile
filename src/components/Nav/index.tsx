@@ -9,59 +9,69 @@ const Nav = () => {
   return (
     <div className="menu_icon">
       <nav className="nav">
-        <a href="#menu" className="nav__target">
-          <img
-            src={menuIcon}
-            alt="menu_icon"
-            onClick={() => setToggle(!toggle)}
-          />
-        </a>
-        {toggle && (
-          <div className="nav__links" id="menu">
-            <a
-              href="#sec1"
-              className="nav__link"
+        {toggle ? (
+          <a href="#menu" className="nav__target">
+            <img
+              src={error}
+              alt="menu_icon"
               onClick={() => setToggle(!toggle)}
-            >
-              HOME
-            </a>
-            <a
-              href="#sec2"
-              className="nav__link"
+            />{" "}
+          </a>
+        ) : (
+          <a href="#sec2" className="nav__target">
+            <img
+              src={menu}
+              alt="menu_icon"
+              className="error_target"
               onClick={() => setToggle(!toggle)}
-            >
-              ABOUT ME
-            </a>
-            <a
-              href="#sec3"
-              className="nav__link"
-              onClick={() => setToggle(!toggle)}
-            >
-              SKILLSET
-            </a>
-            <a
-              href="#sec4"
-              className="nav__link"
-              onClick={() => setToggle(!toggle)}
-            >
-              PORTFOLIO
-            </a>
-            <a
-              href="#sec5"
-              className="nav__link"
-              onClick={() => setToggle(!toggle)}
-            >
-              TESTIMONIALS
-            </a>
-            <a
-              href="#sec6"
-              className="nav__link"
-              onClick={() => setToggle(!toggle)}
-            >
-              CONTACT ME
-            </a>
-          </div>
+            />
+          </a>
         )}
+
+        <div className="nav__links" id="menu">
+          <a
+            href="#sec1"
+            className="nav__link"
+            onClick={() => setToggle(!toggle)}
+          >
+            HOME
+          </a>
+          <a
+            href="#sec2"
+            className="nav__link"
+            onClick={() => setToggle(!toggle)}
+          >
+            ABOUT ME
+          </a>
+          <a
+            href="#sec3"
+            className="nav__link"
+            onClick={() => setToggle(!toggle)}
+          >
+            SKILLSET
+          </a>
+          <a
+            href="#sec4"
+            className="nav__link"
+            onClick={() => setToggle(!toggle)}
+          >
+            PORTFOLIO
+          </a>
+          <a
+            href="#sec5"
+            className="nav__link"
+            onClick={() => setToggle(!toggle)}
+          >
+            TESTIMONIALS
+          </a>
+          <a
+            href="#sec6"
+            className="nav__link"
+            onClick={() => setToggle(!toggle)}
+          >
+            CONTACT ME
+          </a>
+        </div>
       </nav>
     </div>
   );

@@ -48,3 +48,7 @@
 .nav__links:target {
     clip-path: circle(150% at top right);
 }
+
+.error_target:target {
+    clip-path: circle(150% at top right);
+}
