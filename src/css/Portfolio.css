@@ -69,13 +69,15 @@
     margin: 2vh;
   }
   .portfolio_proyect_description {
-    width: 100%;
-    margin-left: 0vh;
+    width: 30vh;
+    margin-left: 5vh;
     color: var(--main-back-ground-second);
     margin-top: 0vh;
     margin-bottom: 7vh;
+
   }
   .portfolio_proyect_question{
-    width: 100%;
+    width: 30vh;
+    margin-left: 5vh ;
   }
 }

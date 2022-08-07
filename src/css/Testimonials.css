@@ -42,3 +42,9 @@ margin-top: 80px;
     width: 60vh;
     font-size: medium;
 }
+
+@media (max-width: 600px) {
+    .contain_comend p{
+        width: 30vh;
+    }
+  }

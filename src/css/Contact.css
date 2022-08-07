@@ -37,3 +37,12 @@
     margin-bottom: -3em;
     margin-top: 10vh;
 }
+
+@media (max-width: 600px) {
+    /* .contact_q_msg h2{
+        width: 30vh;
+    } */
+    .contact_q_msg p{
+        width: 31vh;
+    }
+  }
