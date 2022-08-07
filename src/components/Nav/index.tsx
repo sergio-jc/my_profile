@@ -53,6 +53,13 @@ const Nav = () => {
             >
               TESTIMONIALS
             </a>
+            <a
+              href="#sec6"
+              className="nav__link"
+              onClick={() => setToggle(!toggle)}
+            >
+              CONTACT ME
+            </a>
           </div>
         )}
       </nav>

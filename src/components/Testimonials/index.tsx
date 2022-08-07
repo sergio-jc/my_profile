@@ -16,7 +16,7 @@ const Testimonials = () => {
         </section>
         <Comends pag={0} />
         <div className="smooth_sec">
-          <Smooth id={5} />
+          <Smooth id={6} />
         </div>
       </div>
     </section>

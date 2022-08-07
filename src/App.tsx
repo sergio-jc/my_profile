@@ -1,6 +1,7 @@
 
 import "./App.css";
 import AboutMe from "./components/AboutMe";
+import Contact from "./components/Contact";
 import Header from "./components/Header";
 import Logos from "./components/Logos";
 import Nav from "./components/Nav";
@@ -16,6 +17,7 @@ function App() {
       <Logos/>
       <Portfolio/>
       <Testimonials/>
+      <Contact/>
     </div>
   );
 }
