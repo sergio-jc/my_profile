@@ -22,7 +22,7 @@ const Logos = () => {
           <img src={typescript} className="icon" alt="ts_logo" />
           <img src={react} className="icon" alt="react_logo" />
           <img src={redux} className="icon" alt="redux_logo" />
-          <img src={tailwindcss} className="icon" alt="tailwind_logo" />
+          {/* <img src={tailwindcss} className="icon" alt="tailwind_logo" /> */}
           <img src={sass} className="icon" alt="sass_logo" />
           <img src={nodejsicon} className="icon" alt="nodejs_logo" />
         </div>
