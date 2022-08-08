@@ -48,8 +48,16 @@ const Contact = () => {
                 className="github_icon_detail"
               />
             </a>
-            <img src={gmail} alt="gmail_icon" className="github_icon_detail" />
-            <img src={wsp} alt="wsp_icon" className="github_icon_detail" />
+            <a href="mailto:sergiojara0609@gmail.com" target={"_blank"}>
+              <img
+                src={gmail}
+                alt="gmail_icon"
+                className="github_icon_detail"
+              />
+            </a>
+            <a href="https://wa.me/51924879118" target={"_blank"}>
+              <img src={wsp} alt="wsp_icon" className="github_icon_detail" />
+            </a>
           </div>
           <div className="contact_q_msg bluee">
             <p>Coffee is on me 💙</p>
