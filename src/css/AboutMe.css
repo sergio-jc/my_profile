@@ -48,14 +48,14 @@
 
 @media (max-width: 600px) {
   .about_me {
-    width: 100%;
+    width: 33vh;
     font-size: small;
   }
   .about_me_img{
-    width: 80%;
+    width: 100%;
   }
   .about_me_msg{
-    width: 100%;
+    width: 30vh;
         margin-left: 0px;
   margin-right: 0px;
   }
@@ -65,7 +65,5 @@
   .about_me_description{
     width: 100%;
   }
-  .about_me_msg {
-    padding-right: 2.5em;
-  }
+
 }
