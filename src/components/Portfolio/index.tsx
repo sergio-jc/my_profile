@@ -20,10 +20,7 @@ const Portfolio = () => {
             <div className="portfolio_proyect_description">
               <h2>Manga Coffee</h2>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo
-                cum ipsa atque necessitatibus error eaque dignissimos modi
-                natus, pariatur numquam molestiae ducimus quia voluptate
-                voluptatibus magni dolorum? Reprehenderit, sed illum!
+              Dynamic project with multiple complex functionalities, and multiple details with which the application becomes easy and intuitive to use, catching the user and inviting him to enjoy and enjoy the application.
               </p>
               <a
                 href="https://github.com/NosliwKuns/MANGA-COFFEE"
@@ -61,11 +58,7 @@ const Portfolio = () => {
             <div className="portfolio_proyect_description">
               <h2>Healthy Eating</h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis
-                architecto ratione similique? Quisquam maxime voluptatibus porro
-                doloremque exercitationem, quia fugiat ipsum, repellat
-                consequuntur, labore aperiam. Nam aperiam dolorem temporibus
-                qui!
+              A proof of my evolution as a programmer, was my first full stack application, being a continuous learning challenge, where I was encouraged to try new technologies, overcoming my limits and improving my skills. 
               </p>
               <a href="https://github.com/sergio-jc/PI-food" target={"_blank"}>
                 <img
