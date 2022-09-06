@@ -21,7 +21,7 @@ export interface Persons {
     name: "Zaid Raed",
     occupation: "Full Stack Developer",
     img_person:
-      "https://media-exp1.licdn.com/dms/image/D4D35AQGxqQWQEZNw_Q/profile-framedphoto-shrink_200_200/0/1659456945183?e=1661482800&v=beta&t=E8XfCwINbjxMi1Kvf0ZSwc177ot1SFuxb77IwmYnCMQ",
+      "https://res.cloudinary.com/dbqlsilt2/image/upload/c_crop,h_990,w_990,x_55/v1658857472/a/a92f19f6-3b98-41d8-9c28-204c1aca2235_fgzldk.jpg",
     description:
       "I shared with Ronaldo the development of the MangaCoffe project, for the Henry Students bootcamp, he is an excellent professional, able to face any challenge, research and learn very fast, excellent teamwork and teamwork. You will become a great professional.",
   },
@@ -30,7 +30,7 @@ export interface Persons {
     name: "Andrea Carvajal Osorio",
     occupation: "Front End Developer",
     img_person:
-      "https://media-exp1.licdn.com/dms/image/D4D35AQHQ4KYQpvu8qQ/profile-framedphoto-shrink_200_200/0/1659466053851?e=1661482800&v=beta&t=YO0sYNZybADvB-aO6aK-PMT0a0VgLWymCdV9WZqmT3k",
+      "https://ca.slack-edge.com/TPRS7H4PN-U0368FERG85-6c67e2a7ec1b-512",
     description:
       "I had the opportunity to work with Ronaldo in the Manga Coffee project, he is a very self-taught person who always seeks to increase his knowledge, works very well in a team and is always willing to help and support his colleagues in any way he can. He is a great professional who will bring great growth to the team he is working with.",
   },
