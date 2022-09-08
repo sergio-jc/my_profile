@@ -61,7 +61,7 @@ const Contact = () => {
           </div>
           <div className="contact_q_msg bluee">
             <p>Coffee is on me 💙</p>
-            <p>Handmade and lovingly made by me ©️ </p>
+            <p>Handmade and lovingly made by me 💙 </p>
           </div>
         </div>
       </div>
