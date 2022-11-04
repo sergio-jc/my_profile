@@ -82,6 +82,29 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
+
+<section className="container_img_portfolio_sec">
+<article>
+<img src={"https://raw.githubusercontent.com/sergio-jc/ecommerce-product-page-fm/main/design/desktop-preview.jpg"} alt="healthy_food" className="img_portfolio_sec" />
+<h2 className="blue">E-commerce product page</h2>
+<p className="text_c"> <strong>Html - Sass - Javascript</strong></p>
+
+</article>
+<article>
+<img src={"https://raw.githubusercontent.com/sergio-jc/time-tracking-dashboard/main/design/desktop-preview.jpg"} alt="healthy_food" className="img_portfolio_sec" />
+<h2 className="blue">Time tracking dashboard</h2>
+<p className="text_c"> <strong>Html - Css - Javascript</strong></p>
+</article>
+<article>
+<img src={"https://raw.githubusercontent.com/sergio-jc/expenses-chart-component-fm/main/design/desktop-preview.jpg"} alt="healthy_food" className="img_portfolio_sec" />
+<h2 className="blue">Expenses chart component</h2>
+<p className="text_c"> <strong>Html - Sass - Javascript</strong></p>
+</article>
+
+</section>
+
+
+
         <div className="portfolio_proyect_question">
           <div>
             <div className="portfolio_proyect_question">

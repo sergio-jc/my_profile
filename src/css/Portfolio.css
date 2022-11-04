@@ -63,6 +63,25 @@
   color: var(--main-blue-link);
 }
 
+.img_portfolio_sec{
+  max-width:350px;
+}
+
+.container_img_portfolio_sec {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin: 80px;
+}
+
+.blue {
+  color: var(--main-blue-link);
+  font-size: medium;
+}
+
+.text_c {
+  color: var(--main-back-ground-second);
+}
 @media (max-width: 600px) {
   .img_portfolio {
     width: 40vh;
@@ -79,5 +98,9 @@
   .portfolio_proyect_question{
     width: 30vh;
     margin-left: 5vh ;
+  }
+
+  .container_img_portfolio_sec {
+    margin: 30px;
   }
 }
