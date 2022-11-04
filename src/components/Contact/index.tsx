@@ -24,13 +24,7 @@ const Contact = () => {
             </p>
           </div>
           <div className="contain_contact_icons">
-            <a href="https://twitter.com/Secio_jc" target={"_blank"}>
-              <img
-                src={twitter}
-                alt="twitter_icon"
-                className="github_icon_detail"
-              />
-            </a>
+            
             <a href="https://github.com/sergio-jc" target={"_blank"}>
               <img
                 src={github}
