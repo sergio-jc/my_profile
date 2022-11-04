@@ -12,7 +12,7 @@ export interface Persons {
     name: "Luis Gabriel Valencia Morales",
     occupation: "Back End Developer",
     img_person:
-      "https://media-exp1.licdn.com/dms/image/C5603AQFHEl85YALsJw/profile-displayphoto-shrink_400_400/0/1652916282057?e=1665014400&v=beta&t=nAH0Nee7sucosHB7VxJxn_yJZpwys0nvbW6LYRLFGg8",
+      "https://ca.slack-edge.com/TPRS7H4PN-U038AFM0Q3Y-d37fe52865c7-512",
     description:
       "I had the great opportunity to work with him, in the final project of Henry's Bootcamp, where we worked many hours as a team giving me the possibility to know all the capabilities he has.He is an organized, innovative, creative, curious, and very sociable person; you will get a great professional.",
   },
