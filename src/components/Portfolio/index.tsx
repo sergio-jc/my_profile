@@ -22,6 +22,7 @@ const Portfolio = () => {
               <p>
               Dynamic project with multiple complex functionalities, and multiple details with which the application becomes easy and intuitive to use, catching the user and inviting him to enjoy and enjoy the application.
               </p>
+              <p><strong>React - Typescript - Redux Toolkit - Sass - Firebase - NodeJs - Express - MongoDB </strong></p>
               <a
                 href="https://github.com/NosliwKuns/MANGA-COFFEE"
                 target={"_blank"}
@@ -60,6 +61,7 @@ const Portfolio = () => {
               <p>
               A proof of my evolution as a programmer, was my first full stack application, being a continuous learning challenge, where I was encouraged to try new technologies, overcoming my limits and improving my skills. 
               </p>
+              <p><strong>React - Javascript - Redux - Sequelize - PostgresSQL - NodeJs - Express </strong></p>
               <a href="https://github.com/sergio-jc/PI-food" target={"_blank"}>
                 <img
                   src={github}
