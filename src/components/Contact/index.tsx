@@ -25,37 +25,46 @@ const Contact = () => {
           </div>
           <div className="contain_contact_icons">
             
-            <a href="https://github.com/sergio-jc" target={"_blank"}>
+            <a href="https://github.com/sergio-jc" target={"_blank"} className="link_icon">
               <img
                 src={github}
                 alt="github_icon"
                 className="github_icon_detail"
               />
+              <p>
+              /sergio-jc
+              </p>
             </a>
             <a
               href="https://www.linkedin.com/in/ronaldo-jara/"
               target={"_blank"}
+              className="link_icon"
             >
               <img
                 src={linkedin}
                 alt="linkedin_icon"
                 className="github_icon_detail"
               />
+              <p>
+              /in/ronaldo-jara
+              </p>
             </a>
-            <a href="mailto:sergiojara0609@gmail.com" target={"_blank"}>
+            <a href="mailto:sergiojara0609@gmail.com" target={"_blank"} className="link_icon">
               <img
                 src={gmail}
                 alt="gmail_icon"
                 className="github_icon_detail"
               />
+              <p>
+              sergiojara0609@gmail.com
+              </p>
             </a>
-            <a href="https://wa.me/51924879118" target={"_blank"}>
+            {/* <a href="https://wa.me/51924879118" target={"_blank"}>
               <img src={wsp} alt="wsp_icon" className="github_icon_detail" />
-            </a>
+            </a> */}
           </div>
-          <div className="contact_q_msg bluee">
+          <div className="contact_q_msg">
             <p>Coffee is on me 💙</p>
-            <p>Handmade and lovingly made by me 💙 </p>
           </div>
         </div>
       </div>

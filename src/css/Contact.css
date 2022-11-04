@@ -1,3 +1,10 @@
+.link_icon {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--main-blue-link);
+}
+
 .pair_programming{
     display: flex;
     flex-wrap: wrap;
@@ -25,7 +32,7 @@
 
 .contain_contact_icons{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 40px;
