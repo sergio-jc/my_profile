@@ -18,7 +18,7 @@ const AboutMe = () => {
             </h2>
             <h2>Nice to meet you</h2>
             <p className="about_me_description">
-              Since I started my journey as a wed developer, I have been amazed
+              Since I started my journey as a web developer, I have been amazed
               with the IT world, I have met and collaborated with so many
               talented people to create high quality digital products. I am a
               quiet person, curious by nature, and I am always working to
